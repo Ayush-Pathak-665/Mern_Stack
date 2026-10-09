@@ -11,3 +11,15 @@ const c = 10;
 console.log(c);
 let d;
 console.table([a,b,c,d])
+
+console.warn("This is warning")
+console.error("this is an error")
+
+// alert("HEllo");//Show an alert message
+
+// let sya = confirm("Are you male?"); //return true and false
+// console.log(sya);
+
+// prompt("Enter -: ")//used to take input
+
+
