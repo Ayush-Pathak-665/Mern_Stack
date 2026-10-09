@@ -1,0 +1,173 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+.main-section{
+  background-color: #1F2937;
+  height: 400px;
+  padding: 10px 250px;
+}
+nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+}
+h4{
+  font-size: 24px;
+}
+.items{
+  display: flex;
+  gap: 40px;
+  font-size: 20px;
+}
+
+.hero-section{
+  margin-top: 60px;
+  height: 170px;
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+}
+.hero-section-1{
+  color: #F9FAF8;
+  width: 40%;
+  font-size: 18px;
+}
+.hero-section-1 h1{
+  font-size: 48px;
+  font-weight: 900;
+}
+.hero-section-1 button{
+  padding: 10px 30px;
+  font-size: 15px;
+  color: white;
+  background-color: #3882F6;
+  border-radius: 10px;
+  border: 2px solid #3882F6;
+  margin: 20px;
+}
+.hero-section-2{
+  background-color: #E5E7EB;
+  height: 200px;
+  width: 40%;
+  text-align: center;
+  position: relative;
+}
+.hero-section-2 p{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+.second-section{
+  height: 400px;
+  padding: 10px 250px;
+}
+.second-section h1{
+  font-size: 40px;
+  text-align: center;
+  font-weight: 900;
+  margin-top: 40px;
+}
+
+.boxes{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 70px;
+}
+.item{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.boxes .box1{
+  margin-top: 20px;
+  border: 4px solid blue;
+  height: 150px;
+  width: 150px;
+  border-radius: 10px;
+}
+.item p{
+  font-size: 18px;
+  width:170px;
+  margin: 0;
+}
+
+.third-section{
+  background-color: #E5E7EB;
+  height: 300px;
+  margin-top: 70px;
+  padding: 10px 250px;
+}
+.third-section p{
+  font-size: 40px;
+  font-style: italic;
+  align-items: center;
+  justify-content: center;
+  /* text-align: center; */
+  margin-top: 90px;
+}
+.third-section h3{
+text-align: end;
+padding-right: 100px;
+font-size: 25px;
+}
+
+.Last-Section{
+  height: 350px;
+  padding: 100px 250px;
+}
+.Last-Section .content{
+  height: 200px;
+  background-color: blue;
+  padding: 100px;
+
+}
+
+.content{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.content1{
+  color: white;
+
+}
+.content2{
+  position: relative;
+}
+.content2 button{
+  border: 2px solid white;
+  background-color: blue;
+  color: white;
+  font-size: 25px;
+  padding: 10px 30px;
+  margin-top: 18px;
+  border-radius: 10px;
+}
+
+.footer{
+  height: 100px;
+  background-color: #1F2937;
+  margin-top: 60px;
+  position: relative;
+}
+.footer p{
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+
+}

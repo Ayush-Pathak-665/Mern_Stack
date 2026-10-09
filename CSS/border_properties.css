@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+button{
+    margin: 30px;
+    font-size: 30px;
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+button:hover{
+    color: black;
+    background-color: aliceblue;
+    
+}

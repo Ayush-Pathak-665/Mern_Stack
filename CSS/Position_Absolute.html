@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: black;
+            margin: 0px;
+
+        }
+        #box1{
+            background-color: red;
+            height: 200px;
+            width: 200px;
+            border: 2px solid white;
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%,-50%);/* This - is used to shift backword and topside*/
+            z-index: 3;/*ye use hota hai konsa element ya div ya kuch bhi upar rahega box dekh fir bta*/
+        }
+        #box2{
+            width: 200px;
+            height: 200px;
+            background-color: blue;
+            border: 2px solid white;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            z-index:2;
+        }
+
+        #t1{
+            position: absolute;
+            color: white;
+            background-color: red;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            z-index: 10;
+        }
+    </style>
+</head>
+<body>
+    <div id="box1"></div>
+    <div id="box2"></div>
+    <h1 id="t1">Hey this is Ayush</h1>
+</body>
+</html>

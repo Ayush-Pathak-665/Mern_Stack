@@ -1,0 +1,148 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-family: gilroy;
+  background-color: rgb(213, 255, 64);
+}
+main{
+    height: 100%;
+    width: 100%;
+}
+
+nav{
+  font-size: 25px;
+  padding: 75px 50px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-weight: 600;
+}
+nav h2{
+  font-size: 27px;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: bolder;
+}
+nav .nav2{
+  display: flex;
+  gap: 130px;
+}
+nav a{
+  text-decoration: none;
+  color: black;
+  font-weight: 5000;
+}
+section{
+  padding: 80px 50px;
+}
+.heroText1{
+  text-transform: uppercase;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+section h1{
+  font-size: 190px;
+  font-weight: 1000;
+}
+.heroText1 .video{
+  background-image: url(https://plus.unsplash.com/premium_photo-1783926107846-cfa34cb42237?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwyfHx8ZW58MHx8fHx8);
+  background-size: cover;
+  background-position: center;
+  height: 110px;
+  width: 395px;
+  border-radius: 60px;
+  background-color: black;
+  margin-top: 45px;
+  margin-right: 210px;  
+  padding: 5px/* this is for play button */
+}
+
+.heroText2{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.heroText2 p{
+  font-size: 30px;
+  width: 800px;
+}
+
+.play{
+  height: 100%;
+  width: 25%;
+  border-radius: 100px;
+  background-color: black;
+  border: 2px solid white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.play i{
+  font-size: 50px;
+  color: white;
+}
+
+.LastSec{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.LastSec .FirstSec{
+  display: flex;
+  gap: 40px;
+}
+.FirstSec span{
+  color: black;
+  font-size: 30px;
+  border: 3px solid black;
+  border-radius: 100px;
+  padding: 8px 20px;
+  align-items: center;
+  font-weight: bolder;
+}
+
+.LastSec .SecondSec{
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+}
+
+.img4{
+  margin: 0px 40px;
+  width: 1600px;
+  height: 700px;
+  background-color: red;
+  border-top-left-radius: 250px;
+  border-top-right-radius: 250px;
+  background-image: url(https://cdn.prod.website-files.com/64e7340b7d897bf0c7179e52/64ebbe14414665ada632fb9e_hero%20big%20image-min.png);
+  background-size: cover;
+  position: relative;
+
+}
+
+.img4 .arrow{
+  /* z-index: 5; */
+  background-color: black;
+  height: 300px;
+  width: 300px;
+  border-radius: 200px;
+  color: yellow;
+  position: absolute;
+  top: -10%;
+  right: 25%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 140px;
+  border: 10px solid grey;
+  
+}
