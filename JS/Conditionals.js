@@ -10,7 +10,6 @@ else{
 for(let i = 0;i<10;i++){
     console.log(`this is ${i}`);
 }
-
 let b = 1;
 switch (b) {
     case 0:

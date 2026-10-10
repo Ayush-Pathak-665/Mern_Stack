@@ -18,3 +18,7 @@ console.log(String4.length);
 console.log(String4.at(-2));
 
 console.log(String1.concat(String2))
+ 
+let st1 = "Ayush"
+let c= 10;
+console.log(`Addtion of ${st1} and ${a} is ${st1+a}`);
