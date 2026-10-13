@@ -1,4 +1,4 @@
-console.log("Hello")
+
 
 let getComputerchoice = () =>{
     let choice = Math.random()
